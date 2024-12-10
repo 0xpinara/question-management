@@ -1,0 +1,169 @@
+
+{
+  "questions": [
+    {
+      "id": "Q10",
+      "question_text": "Bir ısıtıcı, 5 dakika boyunca 1500 W güç ile çalışıyor. Harcanan enerji miktarını hesaplayınız.",
+      "context_pages": [18],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["enerji", "güç", "zaman"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Harcanan enerji, güç ile zamanın çarpımıyla hesaplanır.",
+        "key_points": [
+          "Enerji formülü: Enerji = Güç x Zaman.",
+          "Verilen güç: 1500 W, Zaman: 5 dakika = 300 saniye."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Enerji hesaplamasında güç ve zamanın birimleri uyumlu olmalıdır.",
+            "page_reference": 18
+          },
+          {
+            "point": "Hesaplama: Enerji = 1500 x 300 = 450,000 J.",
+            "page_reference": 18
+          }
+        ],
+        "conclusion": "Harcanan enerji miktarı 450,000 Joule’dür."
+      },
+      "grading_criteria": [
+        "Doğru enerji formülünün kullanılması.",
+        "Zaman biriminin doğru şekilde saniyeye çevrilmesi.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q11",
+      "question_text": "Bir dairenin çevresini hesaplayınız. Yarıçapı 7 cm olan bir daire için π'yi 3.14 olarak alınız.",
+      "context_pages": [5],
+      "difficulty_level": "basic",
+      "cognitive_level": "knowledge",
+      "key_concepts": ["çevre", "dairenin matematiksi"],
+      "course_name": "matematik", 
+      "model_answer": {
+        "main_argument": "Dairenin çevresi, çap ile π'nin çarpımıyla bulunur.",
+        "key_points": [
+          "Çevre formülü: Çevre = 2 x π x r.",
+          "Verilen yarıçap: r = 7 cm."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Hesaplama: Çevre = 2 x 3.14 x 7 = 43.96 cm.",
+            "page_reference": 5
+          }
+        ],
+        "conclusion": "Dairenin çevresi 43.96 cm olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "Doğru çevre formülünün yazılması.",
+        "Verilen yarıçapın doğru yerine konulması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q12",
+      "question_text": "Dünya'nın su döngüsü, suyun okyanus, atmosfer ve kara arasındaki hareketidir. Su döngüsünün aşamalarını açıklayınız.",
+      "context_pages": [40, 41],
+      "difficulty_level": "advanced",
+      "cognitive_level": "comprehension",
+      "key_concepts": ["su döngüsü", "hidroloji"],
+      "course_name": "Biyoloji", 
+      "model_answer": {
+        "main_argument": "Su döngüsü, suyun sürekli hareket ettiği doğal bir süreçtir.",
+        "key_points": [
+          "Buharlaşma: Su yüzeylerinden buharın atmosfere yükselmesi.",
+          "Yoğunlaşma: Buharın bulutlara dönüşmesi.",
+          "Yağış: Bulutlardan suyun kar veya yağmur olarak düşmesi.",
+          "Toprak ve yüzey suyu hareketi: Su yüzeylerinden ve yer altından tekrar okyanuslara taşınması."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Buharlaşma, güneş enerjisi ile gerçekleşir.",
+            "page_reference": 40
+          },
+          {
+            "point": "Su döngüsü, yaşamı sürdüren temel bir süreçtir.",
+            "page_reference": 41
+          }
+        ],
+        "conclusion": "Su döngüsü, ekosistemin devamlılığını sağlar ve suyun doğadaki yolculuğunu açıklar."
+      },
+      "grading_criteria": [
+        "Su döngüsünün tüm aşamalarının tanımlanması.",
+        "Aşamaların doğru sırada ifade edilmesi.",
+        "Bilimsel açıklamaların yapılması."
+      ]
+    },
+    {
+      "id": "Q13",
+      "question_text": "Bir tren, 300 m uzunluğunda bir tünelden 40 saniyede geçiyor. Trenin hızını hesaplayınız.",
+      "context_pages": [22],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["hız", "mesafe", "zaman"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Hız, mesafenin zamana bölünmesiyle hesaplanır.",
+        "key_points": [
+          "Hız formülü: Hız = Mesafe / Zaman.",
+          "Verilen mesafe: 300 m, Zaman: 40 saniye."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül yerine konulur: Hız = 300 / 40.",
+            "page_reference": 22
+          },
+          {
+            "point": "Hesaplama: Hız = 7.5 m/s.",
+            "page_reference": 22
+          }
+        ],
+        "conclusion": "Trenin hızı 7.5 m/s olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "Hız formülünün doğru yazılması.",
+        "Verilen değerlerin doğru yerine konulması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q14",
+      "question_text": "Bir molekül içindeki atomlar arasında paylaşım yoluyla oluşan bağ türü nedir? Bu bağın özelliklerini açıklayınız.",
+      "context_pages": [35, 36],
+      "difficulty_level": "advanced",
+      "cognitive_level": "knowledge",
+      "key_concepts": ["kovalent bağ", "kimyasal bağlar"],
+      "course_name": "Kimya", 
+      "model_answer": {
+        "main_argument": "Paylaşım yoluyla oluşan bağ türü kovalent bağdır.",
+        "key_points": [
+          "Kovalent bağ, iki atomun elektronlarını paylaşmasıyla oluşur.",
+          "Bu bağ genellikle ametaller arasında görülür.",
+          "Kovalent bağın örnekleri su (H2O) ve metan (CH4) moleküllerinde bulunur."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Elektron paylaşımı, bağ oluşumunun temelidir.",
+            "page_reference": 35
+          },
+          {
+            "point": "Ametaller arasındaki bağlar genelde kovalenttir.",
+            "page_reference": 36
+          }
+        ],
+        "conclusion": "Kovalent bağ, atomlar arasında paylaşım esasına dayanır ve birçok bileşiğin temel bağ yapısını oluşturur."
+      },
+      "grading_criteria": [
+        "Kovalent bağın doğru tanımlanması.",
+        "Özelliklerin bilimsel bir dille ifade edilmesi.",
+        "Örneklerin uygun şekilde verilmesi."
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 5,
+    "coverage_pages": [5, 18, 22, 35, 36, 40, 41],
+    "primary_topics": ["fizik", "kimya", "biyoloji", "matematik"]
+  }
+}

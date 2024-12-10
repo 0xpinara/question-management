@@ -1,0 +1,169 @@
+{
+  "questions": [
+    {
+      "id": "Q20",
+      "question_text": "Bir araba 2 saatte 120 km yol almıştır. Bu arabanın ortalama hızını hesaplayınız.",
+      "context_pages": [20],
+      "difficulty_level": "basic",
+      "cognitive_level": "application",
+      "key_concepts": ["ortalama hız", "mesafe", "zaman"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Ortalama hız, alınan yolun geçen zamana bölünmesiyle bulunur.",
+        "key_points": [
+          "Hız formülü: Ortalama Hız = Alınan Mesafe / Geçen Zaman.",
+          "Verilen değerler: Mesafe = 120 km, Zaman = 2 saat."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül yerine konulur: Ortalama Hız = 120 / 2.",
+            "page_reference": 20
+          },
+          {
+            "point": "Hesaplama: Ortalama Hız = 60 km/saat.",
+            "page_reference": 20
+          }
+        ],
+        "conclusion": "Arabanın ortalama hızı 60 km/saat olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "Doğru hız formülünün kullanılması.",
+        "Mesafe ve zaman değerlerinin doğru hesaplanması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q21",
+      "question_text": "Bir karışımın homojen mi yoksa heterojen mi olduğunu belirlemek için hangi özelliklere bakılır? Açıklayınız.",
+      "context_pages": [32, 33],
+      "difficulty_level": "advanced",
+      "cognitive_level": "analysis",
+      "key_concepts": ["karışım", "homojenlik", "heterojenlik"],
+      "course_name": "Kimya", 
+      "model_answer": {
+        "main_argument": "Bir karışımın homojen veya heterojen olduğunu belirlemek için bileşenlerin dağılımına bakılır.",
+        "key_points": [
+          "Homojen karışımlarda bileşenler eşit şekilde dağılmıştır (örneğin, tuzlu su).",
+          "Heterojen karışımlarda bileşenler eşit olmayan şekilde dağılmıştır (örneğin, kumlu su).",
+          "Görünüş, yoğunluk ve fiziksel ayrışma durumu incelenir."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Homojen karışımların bileşenleri mikroskobik düzeyde birbiriyle tamamen karışmıştır.",
+            "page_reference": 32
+          },
+          {
+            "point": "Heterojen karışımlar çıplak gözle ayrılabilir.",
+            "page_reference": 33
+          }
+        ],
+        "conclusion": "Karışımın homojenliği veya heterojenliği, bileşenlerin fiziksel özelliklerine dayanarak belirlenir."
+      },
+      "grading_criteria": [
+        "Homojen ve heterojen karışımların tanımlanması.",
+        "Belirleyici özelliklerin doğru açıklanması.",
+        "Örneklerin uygun şekilde verilmesi."
+      ]
+    },
+    {
+      "id": "Q22",
+      "question_text": "Bir cismin kütlesi 10 kg ve yer çekimi ivmesi 9.8 m/s². Bu cismin ağırlığını hesaplayınız.",
+      "context_pages": [17],
+      "difficulty_level": "basic",
+      "cognitive_level": "application",
+      "key_concepts": ["kütle", "yer çekimi", "ağırlık"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Bir cismin ağırlığı, kütle ile yer çekimi ivmesinin çarpımıyla bulunur.",
+        "key_points": [
+          "Ağırlık formülü: Ağırlık = Kütle x Yer Çekimi İvmesi.",
+          "Verilen değerler: Kütle = 10 kg, Yer Çekimi İvmesi = 9.8 m/s²."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül yerine konulur: Ağırlık = 10 x 9.8.",
+            "page_reference": 17
+          },
+          {
+            "point": "Hesaplama: Ağırlık = 98 N.",
+            "page_reference": 17
+          }
+        ],
+        "conclusion": "Cismin ağırlığı 98 Newton’dur."
+      },
+      "grading_criteria": [
+        "Ağırlık formülünün doğru yazılması.",
+        "Kütle ve ivme değerlerinin doğru kullanılması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q23",
+      "question_text": "Bir kare prizmanın toplam yüzey alanını hesaplayınız. Kenar uzunluğu 5 cm, yüksekliği 10 cm.",
+      "context_pages": [8],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["yüzey alanı", "kare prizma"],
+      "course_name": "matematik", 
+      "model_answer": {
+        "main_argument": "Kare prizmanın toplam yüzey alanı, taban alanlarının ve yan yüzey alanlarının toplamıdır.",
+        "key_points": [
+          "Toplam yüzey alanı formülü: 2 x Taban Alanı + Çevre x Yükseklik.",
+          "Taban alanı: Kenar² = 5² = 25 cm².",
+          "Çevre: 4 x Kenar = 4 x 5 = 20 cm."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Hesaplama: Yüzey Alanı = 2 x 25 + 20 x 10 = 50 + 200 = 250 cm².",
+            "page_reference": 8
+          }
+        ],
+        "conclusion": "Kare prizmanın toplam yüzey alanı 250 cm² olarak bulunur."
+      },
+      "grading_criteria": [
+        "Formülün doğru yazılması.",
+        "Taban ve çevre alanlarının doğru hesaplanması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q24",
+      "question_text": "Canlıların enerji ihtiyaçlarını karşılamak için kullandıkları biyokimyasal süreç nedir? Bu sürecin aşamalarını açıklayınız.",
+      "context_pages": [55, 56],
+      "difficulty_level": "advanced",
+      "cognitive_level": "comprehension",
+      "key_concepts": ["hücresel solunum", "biyokimyasal süreçler"],
+      "course_name": "Biyoloji", 
+      "model_answer": {
+        "main_argument": "Canlıların enerji ihtiyaçlarını karşılamak için kullandıkları süreç hücresel solunumdur.",
+        "key_points": [
+          "Hücresel solunum glikoliz, krebs döngüsü ve oksidatif fosforilasyon aşamalarından oluşur.",
+          "Glikoliz: Glikoz molekülü pirüvata parçalanır.",
+          "Krebs döngüsü: Enerji taşıyıcı moleküller oluşturulur.",
+          "Oksidatif fosforilasyon: ATP sentezlenir."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Glikoliz, sitoplazmada gerçekleşir ve anaerobik olabilir.",
+            "page_reference": 55
+          },
+          {
+            "point": "ATP sentezi, mitokondride oksijen varlığında maksimum düzeye ulaşır.",
+            "page_reference": 56
+          }
+        ],
+        "conclusion": "Hücresel solunum, enerji üretiminin temel biyokimyasal sürecidir ve yaşamın devamı için gereklidir."
+      },
+      "grading_criteria": [
+        "Hücresel solunumun aşamalarının doğru açıklanması.",
+        "Her aşamanın bilimsel olarak ifade edilmesi.",
+        "Sürecin öneminin vurgulanması."
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 5,
+    "coverage_pages": [8, 17, 20, 32, 33, 55, 56],
+    "primary_topics": ["fizik", "kimya", "biyoloji", "matematik"]
+  }
+}

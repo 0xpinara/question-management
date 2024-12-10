@@ -1,0 +1,107 @@
+
+{
+  "questions": [
+    {
+      "id": "Q4",
+      "question_text": "Bir arabanın hızı 72 km/saat'ten 20 m/saniye'ye dönüştürülmek isteniyor. Bu dönüşümü yapınız.",
+      "context_pages": [15],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["birim dönüşümü", "hız"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Hız birimleri arasında dönüşüm, uygun çarpanlarla yapılır.",
+        "key_points": [
+          "1 saat = 3600 saniye ve 1 km = 1000 metre eşitlikleri kullanılır.",
+          "Hız: 72 km/saat x (1000 m / 1 km) x (1 saat / 3600 saniye)."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Verilen hız birimlerinin çarpanları doğru şekilde uygulanır.",
+            "page_reference": 15
+          },
+          {
+            "point": "Sonuç: 72 x (1000 / 3600) = 20 m/s.",
+            "page_reference": 15
+          }
+        ],
+        "conclusion": "Arabanın hızı 20 m/saniye olarak dönüştürülür."
+      },
+      "grading_criteria": [
+        "Doğru dönüşüm faktörlerinin kullanılması.",
+        "Hesaplamaların doğru yapılması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q5",
+      "question_text": "Bir dikdörtgen prizmanın hacmi nasıl hesaplanır? 5 cm x 3 cm x 4 cm boyutlarındaki bir prizmanın hacmini bulunuz.",
+      "context_pages": [7, 8],
+      "difficulty_level": "basic",
+      "cognitive_level": "knowledge",
+      "key_concepts": ["hacim", "geometri"],
+      "course_name": "Geometri", 
+      "model_answer": {
+        "main_argument": "Dikdörtgen prizmanın hacmi, boyutlarının çarpımıyla bulunur.",
+        "key_points": [
+          "Hacim formülü: Hacim = Uzunluk x Genişlik x Yükseklik.",
+          "Verilen boyutlar: 5 cm, 3 cm, ve 4 cm."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Boyutlar doğru bir şekilde yerine konulur.",
+            "page_reference": 7
+          },
+          {
+            "point": "Hacim: 5 x 3 x 4 = 60 cm³.",
+            "page_reference": 8
+          }
+        ],
+        "conclusion": "Dikdörtgen prizmanın hacmi 60 cm³ olarak bulunur."
+      },
+      "grading_criteria": [
+        "Doğru hacim formülünün yazılması.",
+        "Boyutların doğru çarpılması.",
+        "Sonucun birimle birlikte verilmesi."
+      ]
+    },
+    {
+      "id": "Q6",
+      "question_text": "Fiziksel ve kimyasal değişim arasındaki farkları açıklayınız. Örneklerle destekleyiniz.",
+      "context_pages": [25, 26],
+      "difficulty_level": "advanced",
+      "cognitive_level": "analysis",
+      "key_concepts": ["fiziksel değişim", "kimyasal değişim"],
+      "course_name": "Kimya", 
+      "model_answer": {
+        "main_argument": "Fiziksel değişim maddenin kimliği değişmeden gerçekleşirken, kimyasal değişim maddeyi başka bir maddeye dönüştürür.",
+        "key_points": [
+          "Fiziksel değişimde sadece fiziksel özellikler (şekil, hal vb.) değişir.",
+          "Kimyasal değişimde yeni maddeler ve özellikler ortaya çıkar.",
+          "Örnek: Buzun erimesi fiziksel bir değişimdir. Kağıdın yanması kimyasal bir değişimdir."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Fiziksel değişimde moleküler yapı aynı kalır.",
+            "page_reference": 25
+          },
+          {
+            "point": "Kimyasal değişimde moleküler bağlar kırılır ve yeni bağlar oluşur.",
+            "page_reference": 26
+          }
+        ],
+        "conclusion": "Fiziksel ve kimyasal değişim, maddenin yapısında ve kimliğinde meydana gelen farklılıklarla ayırt edilir."
+      },
+      "grading_criteria": [
+        "Fiziksel ve kimyasal değişimin tanımlarının doğru yapılması.",
+        "Örneklerin uygun ve açıklayıcı olması.",
+        "Farkların açık ve mantıklı bir şekilde ifade edilmesi."
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 3,
+    "coverage_pages": [7, 8, 15, 25, 26],
+    "primary_topics": ["matematik", "fizik", "kimya"]
+  }
+}

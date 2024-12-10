@@ -1,0 +1,107 @@
+
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "question_text": "Aşağıdaki çokgenin çevresini hesaplayınız. Kenar uzunlukları: 5 cm, 7 cm, 10 cm, ve 12 cm.",
+      "context_pages": [2, 3],
+      "difficulty_level": "basic",
+      "cognitive_level": "application",
+      "key_concepts": ["çevre hesaplama", "çokgen"],
+      "course_name": "Matematik", 
+      "model_answer": {
+        "main_argument": "Çokgenin çevresi, kenar uzunluklarının toplamına eşittir.",
+        "key_points": [
+          "Çokgenin tüm kenar uzunluklarını toplama işlemi yapılmalıdır.",
+          "Çevre formülü: Çevre = Kenar1 + Kenar2 + Kenar3 + ... + KenarN."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Kenar uzunlukları verilmiştir: 5 cm, 7 cm, 10 cm, ve 12 cm.",
+            "page_reference": 2
+          },
+          {
+            "point": "Toplama işlemi yapılır: 5 + 7 + 10 + 12 = 34 cm.",
+            "page_reference": 3
+          }
+        ],
+        "conclusion": "Çokgenin çevresi 34 cm olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "Doğru çevre formülünün yazılması.",
+        "Tüm kenar uzunluklarının doğru toplanması.",
+        "Sonucun doğru birimle verilmesi."
+      ]
+    },
+    {
+      "id": "Q2",
+      "question_text": "Bir kütle 5 N kuvvet ile 10 m yer değiştirdiğinde yapılan işi hesaplayınız.",
+      "context_pages": [10],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["iş", "kuvvet", "yer değiştirme"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Yapılan iş, kuvvet ile yer değiştirme çarpılarak bulunur.",
+        "key_points": [
+          "İş formülü: İş = Kuvvet x Yer Değiştirme.",
+          "Verilen değerler yerine konulur: İş = 5 N x 10 m."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül, iş tanımına dayalıdır.",
+            "page_reference": 10
+          },
+          {
+            "point": "Sonuç: 5 N x 10 m = 50 Joule.",
+            "page_reference": 10
+          }
+        ],
+        "conclusion": "Yapılan iş 50 Joule olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "İş formülünün doğru uygulanması.",
+        "Verilen kuvvet ve yer değiştirme değerlerinin kullanılması.",
+        "Sonucun doğru birimle belirtilmesi."
+      ]
+    },
+    {
+      "id": "Q3",
+      "question_text": "İklim değişikliği nedenleri ve etkileri nelerdir? Kendi cümlelerinizle açıklayınız.",
+      "context_pages": [20, 21],
+      "difficulty_level": "advanced",
+      "cognitive_level": "evaluation",
+      "key_concepts": ["iklim değişikliği", "çevresel etkiler"],
+      "course_name": "Biyoloji", 
+      "model_answer": {
+        "main_argument": "İklim değişikliği, insan faaliyetleri ve doğal süreçler nedeniyle gerçekleşen bir durumdur.",
+        "key_points": [
+          "Fosil yakıt kullanımı ve ormansızlaşma ana nedenler arasındadır.",
+          "İklim değişikliği küresel sıcaklık artışı, buzulların erimesi, ve deniz seviyesinin yükselmesine neden olur.",
+          "Ekosistemler ve tarım üzerinde ciddi etkiler yaratır."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Fosil yakıt kullanımının karbon salınımını artırdığı açıklanmıştır.",
+            "page_reference": 20
+          },
+          {
+            "point": "İklim değişikliği etkileri; sıcaklık artışı ve ekstrem hava olayları ile gösterilmiştir.",
+            "page_reference": 21
+          }
+        ],
+        "conclusion": "İklim değişikliğinin nedenleri insan faaliyetleriyle bağlantılıdır ve çevre üzerinde geniş kapsamlı olumsuz etkiler yaratmaktadır."
+      },
+      "grading_criteria": [
+        "Nedenlerin ve etkilerin açık ve doğru ifade edilmesi.",
+        "Mantıklı argümanlarla desteklenmesi.",
+        "Bilimsel terminolojinin doğru kullanılması."
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 3,
+    "coverage_pages": [2, 3, 10, 20, 21],
+    "primary_topics": ["matematik", "fizik", "biyoloji"]
+  }
+}

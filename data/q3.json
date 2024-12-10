@@ -1,0 +1,106 @@
+    
+{
+  "questions": [
+    {
+      "id": "Q7",
+      "question_text": "Bir çiftçi, dikdörtgen şeklindeki bir tarlayı 20 m x 15 m ölçülerinde çit ile çevirmek istiyor. Kaç metre çit gerektiğini hesaplayınız.",
+      "context_pages": [9],
+      "difficulty_level": "basic",
+      "cognitive_level": "application",
+      "key_concepts": ["çevre hesaplama", "dikdörtgen"],
+      "course_name": "matematik", 
+      "model_answer": {
+        "main_argument": "Dikdörtgenin çevresi, tüm kenar uzunluklarının toplamı ile bulunur.",
+        "key_points": [
+          "Çevre formülü: Çevre = 2 x (Uzunluk + Genişlik).",
+          "Verilen boyutlar: Uzunluk = 20 m, Genişlik = 15 m."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül yerine konulur: Çevre = 2 x (20 + 15).",
+            "page_reference": 9
+          },
+          {
+            "point": "Hesaplama: Çevre = 2 x 35 = 70 metre.",
+            "page_reference": 9
+          }
+        ],
+        "conclusion": "Tarlayı çevirmek için 70 metre çit gereklidir."
+      },
+      "grading_criteria": [
+        "Çevre formülünün doğru uygulanması.",
+        "Verilen boyutların doğru kullanılması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q8",
+      "question_text": "İnsanların sağlığı üzerinde güneş ışığının olumlu ve olumsuz etkilerini tartışınız.",
+      "context_pages": [30, 31],
+      "difficulty_level": "advanced",
+      "cognitive_level": "evaluation",
+      "key_concepts": ["güneş ışığı", "sağlık etkileri"],
+      "course_name": "Biyoloji", 
+      "model_answer": {
+        "main_argument": "Güneş ışığı hem olumlu hem de olumsuz sağlık etkilerine sahiptir.",
+        "key_points": [
+          "Olumlu etkiler: D vitamini üretimi ve ruh sağlığını desteklemesi.",
+          "Olumsuz etkiler: Aşırı maruziyetin cilt kanseri riskini artırması ve cilt yaşlanmasına neden olması."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "D vitamini, güneş ışığına bağlı olarak sentezlenir.",
+            "page_reference": 30
+          },
+          {
+            "point": "Aşırı UV ışınlarına maruziyet cilt hücrelerine zarar verir.",
+            "page_reference": 31
+          }
+        ],
+        "conclusion": "Güneş ışığının etkileri dengeli şekilde değerlendirilmelidir; faydalarından yararlanırken zararlarını önlemek önemlidir."
+      },
+      "grading_criteria": [
+        "Olumlu ve olumsuz etkilerin net bir şekilde ayrılması.",
+        "Mantıklı ve bilimsel açıklamalarla desteklenmesi.",
+        "Sonuçların dengeli bir şekilde ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q9",
+      "question_text": "Bir kürenin hacmini hesaplayınız. Yarıçapı 6 cm olan bir küre için sonucu bulunuz. (π = 3.14 alın)",
+      "context_pages": [12, 13],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["hacim", "küre", "matematik"],
+      "course_name": "matematik", 
+      "model_answer": {
+        "main_argument": "Bir kürenin hacmi, yarıçap uzunluğuna dayalı bir formülle hesaplanır.",
+        "key_points": [
+          "Hacim formülü: Hacim = (4/3) x π x r³.",
+          "Verilen yarıçap: r = 6 cm."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Hacim formülü yerine konulur: Hacim = (4/3) x 3.14 x 6³.",
+            "page_reference": 12
+          },
+          {
+            "point": "Hesaplama: Hacim = (4/3) x 3.14 x 216 = 904.32 cm³.",
+            "page_reference": 13
+          }
+        ],
+        "conclusion": "Kürenin hacmi 904.32 cm³ olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "Küre hacmi formülünün doğru yazılması.",
+        "Yarıçapın küpünün doğru hesaplanması.",
+        "Sonucun doğru birimle belirtilmesi."
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 3,
+    "coverage_pages": [9, 12, 13, 30, 31],
+    "primary_topics": ["matematik", "fizik", "biyoloji"]
+  }
+}

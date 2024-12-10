@@ -1,0 +1,172 @@
+
+{
+  "questions": [
+    {
+      "id": "Q15",
+      "question_text": "Bir dik üçgende dik kenar uzunlukları 6 cm ve 8 cm. Hipotenüsü hesaplayınız.",
+      "context_pages": [11],
+      "difficulty_level": "basic",
+      "cognitive_level": "application",
+      "key_concepts": ["Pisagor teoremi", "dik üçgen"],
+      "course_name": "matematik", 
+      "model_answer": {
+        "main_argument": "Pisagor teoremi, dik üçgende hipotenüsü bulmak için kullanılır.",
+        "key_points": [
+          "Pisagor teoremi: c² = a² + b².",
+          "Verilen kenarlar: a = 6 cm, b = 8 cm."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Hesaplama: c² = 6² + 8² = 36 + 64 = 100.",
+            "page_reference": 11
+          },
+          {
+            "point": "Karekök alınır: c = √100 = 10 cm.",
+            "page_reference": 11
+          }
+        ],
+        "conclusion": "Hipotenüs uzunluğu 10 cm'dir."
+      },
+      "grading_criteria": [
+        "Pisagor teoreminin doğru uygulanması.",
+        "Hesaplamaların doğru yapılması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q16",
+      "question_text": "Küresel ısınmanın temel nedenlerinden biri olan sera gazlarının çevre üzerindeki etkilerini açıklayınız.",
+      "context_pages": [45, 46],
+      "difficulty_level": "advanced",
+      "cognitive_level": "analysis",
+      "key_concepts": ["sera gazları", "küresel ısınma"],
+      "course_name": "Çevre Bilimleri", 
+      "model_answer": {
+        "main_argument": "Sera gazları, atmosferde birikerek küresel ısınmaya neden olur.",
+        "key_points": [
+          "Karbon dioksit (CO2), metan (CH4) ve su buharı önemli sera gazlarıdır.",
+          "Bu gazlar, güneşten gelen enerjinin atmosferde tutulmasını sağlar.",
+          "Sonuç olarak sıcaklık artışı ve iklim değişiklikleri meydana gelir."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Fosil yakıtların yakılması CO2 salınımını artırır.",
+            "page_reference": 45
+          },
+          {
+            "point": "Artan sıcaklık ekosistemleri ve deniz seviyesini etkiler.",
+            "page_reference": 46
+          }
+        ],
+        "conclusion": "Sera gazlarının artışı, çevresel bozulmaya yol açan küresel ısınmanın ana sebeplerindendir."
+      },
+      "grading_criteria": [
+        "Sera gazlarının tanımının doğru yapılması.",
+        "Neden-sonuç ilişkilerinin açıklanması.",
+        "Bilimsel kanıtların kullanılması."
+      ]
+    },
+    {
+      "id": "Q17",
+      "question_text": "Bir 5 kg kütleye 10 N kuvvet uygulanıyor. Kütlenin ivmesini hesaplayınız.",
+      "context_pages": [19],
+      "difficulty_level": "intermediate",
+      "cognitive_level": "application",
+      "key_concepts": ["kuvvet", "kütle", "ivme"],
+      "course_name": "Fizik", 
+      "model_answer": {
+        "main_argument": "Newton'un ikinci yasasına göre ivme, kuvvetin kütleye bölünmesiyle hesaplanır.",
+        "key_points": [
+          "Newton'un ikinci yasası: F = m x a.",
+          "Verilen değerler: F = 10 N, m = 5 kg."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül düzenlenir: a = F / m.",
+            "page_reference": 19
+          },
+          {
+            "point": "Hesaplama: a = 10 / 5 = 2 m/s².",
+            "page_reference": 19
+          }
+        ],
+        "conclusion": "Kütlenin ivmesi 2 m/s² olarak bulunur."
+      },
+      "grading_criteria": [
+        "Newton'un yasasının doğru uygulanması.",
+        "Kütle ve kuvvet değerlerinin doğru yerine konulması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    },
+    {
+      "id": "Q18",
+      "question_text": "Fotosentez sürecini açıklayınız ve bu sürecin çevresel önemi üzerinde durunuz.",
+      "context_pages": [50, 51],
+      "difficulty_level": "advanced",
+      "cognitive_level": "comprehension",
+      "key_concepts": ["fotosentez", "çevre"],
+      "course_name": "Biyoloji", 
+      "model_answer": {
+        "main_argument": "Fotosentez, bitkilerin güneş ışığını kullanarak besin ve oksijen üretmesidir.",
+        "key_points": [
+          "Karbondioksit ve su, klorofil yardımıyla glikoz ve oksijene dönüştürülür.",
+          "Fotosentez, atmosferdeki oksijen seviyesini korur.",
+          "Bu süreç, karbon döngüsünün temel bir parçasıdır."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Fotosentez denklemi: 6CO2 + 6H2O + ışık enerjisi → C6H12O6 + 6O2.",
+            "page_reference": 50
+          },
+          {
+            "point": "Fotosentez, enerji akışını ve ekosistemlerin dengesini sağlar.",
+            "page_reference": 51
+          }
+        ],
+        "conclusion": "Fotosentez, hem bitkiler hem de diğer canlılar için temel bir süreçtir ve çevresel dengeyi sağlar."
+      },
+      "grading_criteria": [
+        "Fotosentez sürecinin doğru açıklanması.",
+        "Sürecin çevresel öneminin belirtilmesi.",
+        "Bilimsel terimlerin doğru kullanılması."
+      ]
+    },
+    {
+      "id": "Q19",
+      "question_text": "Bir çemberin alanını hesaplayınız. Yarıçapı 10 cm olan bir çember için π'yi 3.14 olarak alınız.",
+      "context_pages": [6],
+      "difficulty_level": "basic",
+      "cognitive_level": "application",
+      "key_concepts": ["alan", "çemberin matematiksi"],
+      "course_name": "matematik", 
+      "model_answer": {
+        "main_argument": "Çemberin alanı, yarıçapın karesi ile π'nin çarpımıyla bulunur.",
+        "key_points": [
+          "Alan formülü: Alan = π x r².",
+          "Verilen yarıçap: r = 10 cm."
+        ],
+        "supporting_evidence": [
+          {
+            "point": "Formül yerine konulur: Alan = 3.14 x 10².",
+            "page_reference": 6
+          },
+          {
+            "point": "Hesaplama: Alan = 3.14 x 100 = 314 cm².",
+            "page_reference": 6
+          }
+        ],
+        "conclusion": "Çemberin alanı 314 cm² olarak hesaplanır."
+      },
+      "grading_criteria": [
+        "Doğru alan formülünün yazılması.",
+        "Yarıçapın karesinin doğru hesaplanması.",
+        "Sonucun doğru birimle ifade edilmesi."
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 5,
+    "coverage_pages": [6, 11, 19, 45, 46, 50, 51],
+    "primary_topics": ["matematik", "fizik", "biyoloji", "çevre bilimleri"]
+  }
+}

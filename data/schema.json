@@ -1,0 +1,74 @@
+{
+  "type": "OBJECT",
+  "properties": {
+    "questions": {
+      "type": "ARRAY",
+      "items": {
+        "type": "OBJECT",
+        "properties": {
+          "id": { "type": "STRING" },
+          "question_text": { "type": "STRING" },
+          "context_pages": { "type": "ARRAY", "items": { "type": "INTEGER" } },
+          "difficulty_level": {
+            "type": "STRING",
+            "enum": ["basic", "intermediate", "advanced"]
+          },
+          "cognitive_level": {
+            "type": "STRING",
+            "enum": [
+              "knowledge",
+              "comprehension",
+              "application",
+              "analysis",
+              "synthesis",
+              "evaluation"
+            ]
+          },
+          "key_concepts": { "type": "ARRAY", "items": { "type": "STRING" } },
+          "course_name": { "type": "STRING" },
+          "model_answer": {
+            "type": "OBJECT",
+            "properties": {
+              "main_argument": { "type": "STRING" },
+              "key_points": { "type": "ARRAY", "items": { "type": "STRING" } },
+              "supporting_evidence": {
+                "type": "ARRAY",
+                "items": {
+                  "type": "OBJECT",
+                  "properties": {
+                    "point": { "type": "STRING" },
+                    "page_reference": { "type": "INTEGER" }
+                  },
+                  "required": ["point", "page_reference"]
+                }
+              },
+              "conclusion": { "type": "STRING" }
+            },
+            "required": ["main_argument", "key_points", "conclusion"]
+          },
+          "grading_criteria": { "type": "ARRAY", "items": { "type": "STRING" } }
+        },
+        "required": [
+          "id",
+          "question_text",
+          "context_pages",
+          "difficulty_level",
+          "cognitive_level",
+          "key_concepts",
+          "model_answer",
+          "grading_criteria"
+        ]
+      }
+    },
+    "metadata": {
+      "type": "OBJECT",
+      "properties": {
+        "total_questions": { "type": "INTEGER", "minimum": 1 },
+        "coverage_pages": { "type": "ARRAY", "items": { "type": "INTEGER" } },
+        "primary_topics": { "type": "ARRAY", "items": { "type": "STRING" } }
+      },
+      "required": ["total_questions", "coverage_pages", "primary_topics"]
+    }
+  },
+  "required": ["questions", "metadata"]
+}
