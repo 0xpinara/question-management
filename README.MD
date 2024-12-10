@@ -17,8 +17,8 @@ FastAPI-based REST API for managing educational questions with metadata, caching
 
 ### Installation & Running
 1. Clone the repository:
-git clone <your-repository-url>
-cd question-management
+git clone <https://github.com/0xpinara/question-management>
+
 
 2. Start the services:
 docker-compose up --build
@@ -27,16 +27,6 @@ docker-compose up --build
 3. The API will be available at:
 - API: http://localhost:8000
 - Documentation: http://localhost:8000/docs
-
-### Testing the API
-
-1. Get all questions:
-curl http://localhost:8000/api/v1/questions
-
-
-2. Get metadata:
-curl http://localhost:8000/api/v1/metadata
-
 
 
 ## API Endpoints
